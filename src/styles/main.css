@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(13, 14, 14);
+  color: aliceblue;
+}
+
+.header {
+  height: 5rem;
+  /* position: relative; */
+  /* display: flex;
+
+  justify-content: space-around; */
+}
+
+.title {
+  float: left;
+  /* height: 90%; */
+  margin-left: 2rem;
+}
+
+.searc-box {
+  float: right;
+  margin-left: -25rem;
+  color: antiquewhite;
+  background-color: green;
+}
+.button {
+  margin-left: 2.5rem;
+  position: relative;
+  right: 9.5rem;
+  width: 8rem;
+  height: 3rem;
+  font-size: larger;
+  background-color: rgb(13, 14, 14);
+  border: rgb(13, 14, 14);
+  color: aliceblue;
+}
+
+.clicked-button {
+  color: rgb(161, 144, 48);
+  margin-left: 2.5rem;
+  position: relative;
+  right: 9.5rem;
+  width: 8rem;
+  height: 3rem;
+  font-size: larger;
+  background-color: rgb(13, 14, 14);
+  border: rgb(13, 14, 14);
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.card {
+  margin: 1.5rem;
+  display: block;
+}
+
+.img {
+  width: 15rem;
+}
+
+hr {
+  position: relative;
+  top: -0.6rem;
+  color: rgba(13, 14, 14, 0.26);
+  background-color: rgba(13, 14, 14, 0.26);
+}
+
+.rate {
+  width: 3rem;
+  padding: 0.5rem;
+  background-color: rgba(13, 14, 14, 0.26);
+  border-radius: 50%;
+  border: 0.15rem green solid;
+  position: relative;
+  top: 5rem;
+  right: -1rem;
+  text-align: center;
+}
+
+.geners {
+  display: flex;
+  flex-direction: row;
+  color: rgb(161, 144, 48);
+}
+
+.largeimg {
+  width: 45rem;
+  height: 30rem;
+}
+
+.video {
+  border: 2px solid rgb(161, 144, 48);
+  width: 10rem;
+  height: 3rem;
+  margin: auto;
+  text-align: center;
+  margin-left: 60rem;
+  padding-top: 0.5rem;
+}
