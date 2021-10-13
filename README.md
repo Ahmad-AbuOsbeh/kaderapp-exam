@@ -2,6 +2,10 @@
 
 # Ahmad Abu Osbeh
 
+## deployed link:
+
+[https://kaderapp-exam-ahmad-abuosbeh.netlify.app/](https://kaderapp-exam-ahmad-abuosbeh.netlify.app/)
+
 ### final result :
 
 ---
